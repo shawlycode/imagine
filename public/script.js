@@ -46,7 +46,7 @@ for (let i = 0; i <= 10; i++) {
 
 
 
-/ IF ELSE
+// / IF ELSE
 if (today.getHours() >= 18) {
   console.log("class has ended")
 } else {
