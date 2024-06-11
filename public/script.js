@@ -100,7 +100,29 @@ Math.ceil(Math.random() * 1000000);
 1290 + Number('300');
 
 
+// using the array map method
+const users = [
+  { firstname: 'Freda', lastname: "Astanga" },
+  { firstname: 'orlando', lastname: "shawly" },
+  { firstname: 'Ray', lastname: "Kutina" },
+  { firstname: 'Mickey', lastname: "Delmwine" },
+  { firstname: 'Presy', lastname: "Lamin" },
 
+]
+users.map(fullname);
+
+// map and return squres of number
+// function to square numbers
+function square(number) {
+  return number ** 2;
+}
+const numbers = [0, 1, 2, 3, 4, 5,]
+numbers.map(square);
+// filter even numbers
+function even(number) {
+  return number % 2 === 0;
+}
+numbers.filter(even)
 
 
 
